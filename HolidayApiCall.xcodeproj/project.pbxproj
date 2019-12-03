@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8622ACCC2394EA47006BA566 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622ACCB2394EA47006BA566 /* Holiday.swift */; };
 		8650ABA823928B12005FA9ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8650ABA723928B12005FA9ED /* AppDelegate.swift */; };
 		8650ABAA23928B12005FA9ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8650ABA923928B12005FA9ED /* SceneDelegate.swift */; };
 		8650ABAC23928B12005FA9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8650ABAB23928B12005FA9ED /* ViewController.swift */; };
 		8650ABAF23928B12005FA9ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8650ABAD23928B12005FA9ED /* Main.storyboard */; };
 		8650ABB123928B19005FA9ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8650ABB023928B19005FA9ED /* Assets.xcassets */; };
 		8650ABB423928B19005FA9ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8650ABB223928B19005FA9ED /* LaunchScreen.storyboard */; };
+		86CB2BAC23962EB400BDCC04 /* HolidayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CB2BAB23962EB400BDCC04 /* HolidayRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8622ACCB2394EA47006BA566 /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
 		8650ABA423928B12005FA9ED /* HolidayApiCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidayApiCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8650ABA723928B12005FA9ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8650ABA923928B12005FA9ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		8650ABB023928B19005FA9ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8650ABB323928B19005FA9ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8650ABB523928B19005FA9ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86CB2BAB23962EB400BDCC04 /* HolidayRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8650ABB023928B19005FA9ED /* Assets.xcassets */,
 				8650ABB223928B19005FA9ED /* LaunchScreen.storyboard */,
 				8650ABB523928B19005FA9ED /* Info.plist */,
+				8622ACCB2394EA47006BA566 /* Holiday.swift */,
+				86CB2BAB23962EB400BDCC04 /* HolidayRequest.swift */,
 			);
 			path = HolidayApiCall;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8650ABAC23928B12005FA9ED /* ViewController.swift in Sources */,
+				86CB2BAC23962EB400BDCC04 /* HolidayRequest.swift in Sources */,
 				8650ABA823928B12005FA9ED /* AppDelegate.swift in Sources */,
+				8622ACCC2394EA47006BA566 /* Holiday.swift in Sources */,
 				8650ABAA23928B12005FA9ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
